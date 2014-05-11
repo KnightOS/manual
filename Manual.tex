@@ -1,0 +1,23 @@
+% vim: tw=82
+\documentclass{book}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{inputenc}
+\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge\it}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{ {./images/} }
+
+\begin{document}
+\title{KnightOS User Manual}
+\author{The KnightOS Group}
+\maketitle
+\tableofcontents
+
+\input{Introduction}
+\input{Basic-User-Interaction}
+\input{The-Castle}
+\input{File-Manager}
+
+\end{document}
